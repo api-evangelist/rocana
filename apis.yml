@@ -1,8 +1,26 @@
 aid: rocana
-name: Rocana *
-description: 'Rocana * is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: frontier-tech. This profile is a lead awaiting the enrichment
-  pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rocana.png
+name: Rocana
+description: 'Rocana (formerly ScalingData) was an IT operations analytics company founded in 2014
+  in San Francisco and backed by GV. Its product captured and analyzed all machine data from all
+  sources across data-center infrastructure, keeping it online and queryable for years so operations
+  teams could perform root-cause analysis and surface emerging IT problems before they caused
+  outages. The company raised roughly $19.4M before being acquired by Splunk in 2017, after which
+  the independent Rocana product and brand were wound down. It was surfaced as a GV portfolio
+  company and added to the API Evangelist network. Enrichment on 2026-07-21 confirmed there is no
+  live public website (rocana.com no longer resolves), no developer portal, no API, and no client
+  packages — the company no longer operates independently.'
 url: https://raw.githubusercontent.com/api-evangelist/rocana/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +28,29 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: splunk
+x-acquired-year: 2017
+x-former-name: ScalingData
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Frontier Tech
+- IT Operations
+- Analytics
+- Observability
+- Log Analytics
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
